@@ -36,7 +36,7 @@
   ngModule.directive("todoDir", function() {
     var directive = {};
     directive.restrict = "E"; /* restrict this directive to elements */
-    directive.template = `<h2>Todo updated1</h2>
+    directive.template = `<h2>Todo updated3</h2>
 			  <div ng-controller="TodoController">
 				<span>{{remaining()}} of {{todos.length}} remaining</span>
 				[ <a href="" ng-click="archive()">archive</a> ]
